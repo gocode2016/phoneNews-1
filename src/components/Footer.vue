@@ -13,7 +13,7 @@
 			<router-link tag="li" to="/Content" class="home">
 				<a href="javascript:;"></a>
 			</router-link>
-			<router-link tag="li" to="/Follow" class="write">
+			<router-link tag="li" to="/Follew" class="write">
 				<a href="javascript:;"></a>
 			</router-link>
 			<router-link tag="li" to="user-info" class="my">
