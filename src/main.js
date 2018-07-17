@@ -7,6 +7,11 @@ import store from './store'
 import './assets/js/font.js'
 import './assets/js/jquery-1.7.2.js'
 import Loading from './components/loading'
+import filters from './filters'
+//循环遍历
+Object.keys(filters).forEach((item) =>{
+	Vue.filter(item,filters[item])
+})
 Vue.use(Loading)
 Vue.use(VueRouter)
 //axios配置
